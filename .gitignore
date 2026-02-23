@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи
+logs/
+*.log
+
+# Временные файлы
+temp/
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Секреты (НИКОГДА не коммить!)
+.env
+.env.local
+.env.production
+
+# Frontend build
+dist/
+node_modules/
+
+# Android
+android/app/build/
+android/.gradle/
+*.apk
+*.aab
+
+# Railway
+.web/
