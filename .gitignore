@@ -1,27 +1,37 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-.venv
+```
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+pubspec.lock
 
-# База данных
-*.db
-*.sqlite
-*.sqlite3
+# Android
+android/.gradle
+android/build/
+android/app/build/
 
-# Логи
-logs/
+# iOS
+ios/Pods/
+ios/build/
+*.xcworkspace
+xcuserdata/
+
+# Build artifacts
+build/
+dist/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Logs
 *.log
+**/logs
 
-# Временные файлы
-temp/
-*.tmp
-*.temp
+# Environment
+.env
+.env.local
+.env.*
 
 # IDE
 .vscode/
@@ -33,20 +43,11 @@ temp/
 .DS_Store
 Thumbs.db
 
-# Секреты (НИКОГДА не коммить!)
-.env
-.env.local
-.env.production
+# Coverage
+coverage/
+*.coverage
 
-# Frontend build
-dist/
-node_modules/
-
-# Android
-android/app/build/
-android/.gradle/
-*.apk
-*.aab
-
-# Railway
-.web/
+# Temporary files
+*.tmp
+*.temp
+```

@@ -1,0 +1,4 @@
+# This file tracks properties of this Flutter project.
+# Used by Flutter CLI to manage local effective environment settings.
+sdk: ">=3.0.0 <4.0.0"
+flavor: null
