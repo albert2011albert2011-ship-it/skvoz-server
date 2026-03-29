@@ -1,0 +1,45 @@
+name: сквоз
+description: Мессенджер "Сквозь" - работающий с интернетом и без (Bluetooth, Wi-Fi Direct, Mesh)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Bluetooth
+  flutter_bluetooth_serial: ^0.4.0
+  
+  # Wi-Fi Direct & Network
+  network_info_plus: ^4.1.0
+  
+  # File & Data
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  uuid: ^4.2.1
+  
+  # UI
+  google_fonts: ^6.1.0
+  
+  # Utils
+  permission_handler: ^11.1.0
+  connectivity_plus: ^5.0.2
+  file_picker: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
